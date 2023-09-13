@@ -13,7 +13,7 @@ insertTask.addEventListener("submit", function (e) {
   let b = Math.floor(Math.random() * 256);
   let c = Math.floor(Math.random() * 256);
   div1.innerHTML = `
-  <ul><li>safaf${taskToAdd}  <br>
+  <ul><li>${taskToAdd}  <br>
   <button onclick="deleteButton(event)" id="deleteButton">Delete task</button></li></ul>`;
   task.value = ``;
   div1.style.color = `rgb(${a},${b},${c})`;
