@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  background-color: #042d4f87;
+}
+
+.container {
+  min-width: 1600px;
+  margin-left: 4em;
+  margin-right: auto;
+  margin-top: 2em;
+}
+form {
+  margin-bottom: 1em;
+}
+li {
+  list-style: square;
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+label {
+  margin-right: 0.3em;
+  font-size: 1.6em;
+}
+
+#task {
+  font-size: 0.7em;
+}
+button {
+  font-size: 1em;
+  color: white;
+  margin-left: 0.5em;
+  border-radius: 7px;
+  padding: 6px;
+  font-weight: bold;
+  background-color: black;
+}
+#deleteButton {
+  margin-left: 0.5em;
+  background-color: rgb(194, 188, 188);
+  color: black;
+  font-size: 0.5em;
+}
